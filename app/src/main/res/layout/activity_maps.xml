@@ -56,7 +56,7 @@
             android:src="@drawable/ic_mapicon"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="70dp"
-            android:id="@+id/ic_mapicon"
+            android:id="@+id/placePicker"
             />
 
     </RelativeLayout>
