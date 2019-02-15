@@ -39,9 +39,25 @@
             android:layout_centerVertical="true"
             android:textSize="15sp"
             android:textColor="#000"
+            android:layout_marginLeft="10dp"
             android:id="@+id/input_search"
             android:background="@null"
             android:hint="Enter Address, City or Zip code"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout2">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_mapicon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/ic_mapicon"
+            />
 
     </RelativeLayout>
 </RelativeLayout>
